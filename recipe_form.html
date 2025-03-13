@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recipe_form_style.css">
+    <title>Recipe Form</title>
+</head>
+<body>
+    <div class="form">
+        <h2 class="child">Fill out this form to leave some feedback or ask any advice you need!</h2>
+        <form>
+            <label for="name" class="child">Name:</label>
+            <input class="child" type="text" id="name" name="name">
+            <br>
+            <label for="email" class="child">Email:</label>
+            <input class="child" type="email" id="email" name="email">
+            <div class="radios">
+            <input class="child" type="radio" id="feedback" name="type" value="Feedback">
+            <label class="child" for="feedback">I'm sharing some feedback</label>
+            <br>
+            <input class="child" type="radio" id="advice" name="type" value="advice">
+            <label class="child" for="advice">I'm asking for some advice</label>
+            </div>
+            <label class="child" for="message">Message:</label>
+            <input class="child" type="text" id="message" name="message">
+            <br>
+            <input id="submit" class="child" type="submit" value="Submit">
+        </form>
+        <a class="child" href="recipe.html">Back to main page</a>
+    </div>
+</body>
+</html>

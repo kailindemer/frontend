@@ -1,0 +1,57 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-image: url("https://140570555.cdn6.editmysite.com/uploads/1/4/0/5/140570555/s675124993103485089_p35_i1_w5616.jpeg?width=2560");
+    background-size: cover;
+}
+.title {
+    display: inline-block;
+    width: 90vw;
+    align-self: center;
+    background-color: beige;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+    margin-top: 10px;
+}
+.box{
+    background-color: beige;
+    border: solid;
+    border-radius: 20px;
+    margin: 20px;
+    align-self: center;
+    display: inline-block;
+    padding: 30px;
+}
+.heading {
+    display: flex;
+    align-items: stretch;
+}
+#box1 {
+    width: 250px;
+    height:130px;
+}
+#box2{
+    width: 950px;
+}
+#box3{
+    height:130px;
+}
+#instructions{
+    padding: 40px;
+}
+#nested{
+    padding-left: 30px;
+}
+#list{
+    padding-left: 20px;
+}
+#megabox{
+    width:950px;
+}
