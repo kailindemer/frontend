@@ -1,0 +1,79 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.toggle {
+    border-radius: 25px;
+    border: 2px solid cornflowerblue;
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+}
+
+.toggle div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    transition: all 0.3s;
+}
+
+.toggle.serious div {
+    margin-left: 40px;
+    transition: all 0.3s;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    width: 20%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgba(100, 148, 237, 0.25);
+    padding: 3%;
+    color: lightblue;    
+}
+
+.selected {
+    background-color: cornflowerblue;
+    transform: scale(1.1);
+    transition: all linear 0.5;
+    color: darkslateblue;
+}
+.card-1 .song,
+.card-2 .song,
+.card-3 .song{
+    -webkit-filter: opacity(25%);
+  filter: opacity(25%);
+}
+.card-1 .image,
+.card-2 .image,
+.card-3 .image{
+    opacity: 0.25;
+}
+.selected .song{
+    -webkit-filter: none;
+  filter: none;
+}
+.selected .image{
+    opacity: 1;
+}
